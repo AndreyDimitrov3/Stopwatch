@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="stopwatch.css">
+</head>
+<body>
+    <main class="main">
+        <h1>Stopwatch (In Seconds)</h1>
+
+        <button type="button" id="start">Start</button>
+
+        <div class="holder hidden" id="holder">
+            <div id="timeholder">
+                <p id="seconds">Seconds: <span id="timer">0 sec</span></p>
+            </div>
+
+            <div class="stop-remove">
+                <button class="stop" id="pausePlay">Pause/Play</button>
+                <button class="stop" id="remove">Remove</button>
+            </div>
+        </div>
+
+    </main>
+    <script src="stopwatch.js"></script>
+</body>
+</html>
